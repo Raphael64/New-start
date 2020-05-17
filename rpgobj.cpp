@@ -9,7 +9,7 @@ void RPGObj::initObj(string type)
         this->_eatable = false;
     }
     else if (type.compare("stone")==0){
-        this->_coverable = false;
+        this->_coverable =false;
         this->_eatable = false;
     }
     else if (type.compare("fruit")==0){
